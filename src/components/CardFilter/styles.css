@@ -1,0 +1,42 @@
+.d-listing {
+  padding-top: 20px;
+}
+
+.d-input-flex {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+
+.d-input-flex input {
+  border: 1px solid var(--d-color-input);
+}
+
+.d-input-flex input,
+.d-input-flex button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.d-input-flex input::placeholder {
+  padding-top: 11px;
+  padding-left: 10px;
+  font-weight: 400;
+  color: var(--d-color-input);
+}
+
+.d-input-flex button {
+  background-color: var(--d-color-green);
+  color: var(--d-color-white);
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 0px;
+}
